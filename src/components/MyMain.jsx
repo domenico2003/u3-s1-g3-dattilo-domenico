@@ -1,5 +1,5 @@
 import { Component } from "react";
-import AllTheBooks from "./SecondaryComponents/AllTheBooks";
+import BookList from "./SecondaryComponents/BookList";
 import Welcome from "./SecondaryComponents/Welcome";
 
 class MyMain extends Component {
@@ -7,7 +7,7 @@ class MyMain extends Component {
     return (
       <>
         <Welcome className="mb-5 w-100   bg-secondary py-5" />
-        <AllTheBooks generi={this.props.gender} />
+        <BookList generi={this.props.gender} />
       </>
     );
   }

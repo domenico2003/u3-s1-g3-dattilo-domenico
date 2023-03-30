@@ -11,25 +11,25 @@ class Myfooter extends Component {
               <h5 className="text-title">Ci trovi sui seguenti social:</h5>
               <a href="#placeholder" className="d-block myAncor w-100">
                 <div className="d-flex justify-content-around">
-                  <i class="bi bi-facebook me-0"></i>
+                  <i className="bi bi-facebook me-0"></i>
                   <p className="m-0"> Facebook</p>
                 </div>
               </a>
               <a href="#placeholder" className="d-block myAncor w-100">
                 <div className="d-flex justify-content-around">
-                  <i class="bi bi-instagram me-0"></i>
+                  <i className="bi bi-instagram me-0"></i>
                   <p className="m-0"> Instagram</p>
                 </div>
               </a>
               <a href="#placeholder" className="d-block myAncor w-100">
                 <div className="d-flex justify-content-around">
-                  <i class="bi bi-linkedin me-0"></i>
+                  <i className="bi bi-linkedin me-0"></i>
                   <p className="m-0"> Linkedin</p>
                 </div>
               </a>
               <a href="#placeholder" className="d-block myAncor w-100">
                 <div className="d-flex justify-content-around">
-                  <i class="bi bi-twitter me-0"></i>
+                  <i className="bi bi-twitter me-0"></i>
                   <p className="m-0"> Twitter</p>
                 </div>
               </a>

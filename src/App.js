@@ -11,7 +11,7 @@ import history from "./books/history.json";
 import romance from "./books/romance.json";
 import scifi from "./books/scifi.json";
 
-let generi = [horror, history, fantasy, romance, scifi];
+let generi = [...horror, ...history, ...fantasy, ...romance, ...scifi];
 
 function App() {
   return (

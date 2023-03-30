@@ -1,7 +1,19 @@
 .mycol {
   height: 368px;
 }
-
+.input-search {
+  max-width: 300px;
+  height: 30px;
+  box-shadow: 0px 0 15px;
+}
+.col-selezionata {
+  border: 2px solid red;
+  transition-duration: 0ms;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 350ms;
+}
 .mycol .card {
   height: 368px;
 }
