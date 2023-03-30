@@ -1,0 +1,47 @@
+.mycol {
+  height: 368px;
+}
+
+.mycol .card {
+  height: 368px;
+}
+.mycol img {
+  object-fit: contain;
+  height: 70%;
+}
+
+.mycol .card-title {
+  max-height: 48px;
+  overflow: auto;
+}
+
+.personal-button button {
+  border: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+}
+.mycol .card-title::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.personal-button button::after {
+  margin-inline-start: 20px;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+}
+
+.myAncor {
+  text-decoration: none;
+  color: white;
+}
+
+.myAncor:hover {
+  color: rgb(0, 255, 98);
+}
+
+.text-title {
+  color: aqua;
+}
